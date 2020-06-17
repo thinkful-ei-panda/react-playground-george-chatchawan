@@ -1,9 +1,10 @@
 import React from 'react';
+import TheDate from './state/TheDate'
 
 function App() {
   return (
     <main className='App'>
-      {/* content goes here */}
+      <TheDate />
     </main>
   );
 }
